@@ -3,13 +3,33 @@ import "./Message.css";
 import SheChat from "../../Components/sheChat";
 import Ellipse from "../../img/Ellipse.png";
 import pexels from "../../img/pexels.png"
+import hepic from "../../img/hepic.png"
 import Vectortwo from "../../img/Vectortwo.svg";
 import Vectorthree from "../../img/Vectorthree.svg";
 import Vectorone from "../../img/Vectorone.svg";
 import HeChat from "../../Components/heChat";
 import SelectedUser from "./SelectedUser";
+import ChatSublist from "./Chat.Sublist";
 
 const Message = () => {
+
+  const chatList =[
+    {
+    name:"Steven Buhari",
+    message:"Thank You that wa",
+    avatar: Ellipse
+  },
+    {
+    name:"Samuel Batari",
+    message:"Thank You that wa",
+    avatar: Ellipse
+  },
+    {
+    name:"Bola Ogunde",
+    message:"Thank You that wa",
+    avatar: hepic
+  }
+]
   return (
     <section className="message">
       <div className="m_main">
@@ -19,33 +39,18 @@ const Message = () => {
               Message <i class="fas fa-times"></i>
             </h2>
           </div>
-          <div className="chats">
-            <div className="c-1">
-              <img src={Ellipse} alt="" />
-            </div>
-            <div className="c-name">
-              <h3>Steven Buhari</h3>
-              <p>Thank you! That wa.</p>
-            </div>
-          </div>
-          <div className="chats">
-            <div className="c-1">
-              <img src={Ellipse} alt="" />
-            </div>
-            <div className="c-name">
-              <h3>Steven Buhari</h3>
-              <p>Thank you! That wa.</p>
-            </div>
-          </div>
-          <div className="chats">
-            <div className="c-1">
-              <img src={Ellipse} alt="" />
-            </div>
-            <div className="c-name">
-              <h3>Steven Buhari</h3>
-              <p>Thank you! That wa.</p>
-            </div>
-          </div>
+          {
+            chatList.map((item, index) =>{
+              return(
+                <ChatSublist name={item.name}
+                avatar={item.avatar}
+                message={item.message}/>
+              )
+            })
+          }
+        
+        
+      
         </div>
 
         <div className="m-container">
