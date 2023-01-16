@@ -1,0 +1,42 @@
+header{
+    height:100vh ;
+}
+header ul{
+    line-height: 8vh;
+}
+
+header ul li{
+    margin-left: 30px;
+    list-style: none;
+}
+
+header ul li a{
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    color:  #50555C;
+}
+
+.navlink{
+    background-color: #fff;
+    height: 100%;
+}
+
+header ul li :hover{
+    background-color: #218698;
+    color: #fff;
+    padding:  10px 30px;
+}
+
+.header .navlink a {
+    gap: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.d_take{
+    margin-top: 70vh;
+}
+
+
+

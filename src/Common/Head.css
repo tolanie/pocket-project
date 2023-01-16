@@ -1,0 +1,38 @@
+
+.head{
+    padding: 25px;
+}
+.p-pic{
+    display: flex;
+    justify-content: space-around;
+}
+
+.p-pic img{
+        width: 35px;
+        height: 35px;
+        margin-top: 8px
+}
+
+.nam h4{
+    padding: 15px;
+    width: 100%;
+}
+
+.add{
+    display: flex;
+    width: 15%;
+    justify-content: space-around;
+}
+
+.add i{
+    padding-top: 18px;
+}
+
+
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+

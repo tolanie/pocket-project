@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    /* position: fixed; */
+    width: 20vw;
+    background: #fff;
+    height: 100vh;
+}
+/*  */
+.main {
+    /* position: relative; */
+    /* left: 20vw; */
+}

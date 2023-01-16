@@ -1,0 +1,80 @@
+.logout{
+    display: flex;
+    margin: auto;
+    width: 80vw;
+}
+.sign-in{
+    background-color: #F2F2F2;
+    width: 40%;
+    padding: 5rem;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.sign-in h1{
+    text-align: center;
+    color: #ED6810;
+}
+
+.sign-in p{
+    text-align: center;
+}
+
+.sign-in form{
+    margin-top: 50px;
+}
+
+.sign-in form label,
+.sign-in form input{
+    display: block;
+}
+
+.sign-in form input{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+}
+
+.sign-in form label{
+    padding-bottom: 5px;
+}
+
+.group{
+    padding-bottom: 20px;
+}
+
+.group .psw{
+    font-size: 12px;
+}
+
+.group  a{
+    text-decoration: none;
+    margin-left: 10rem;
+    color: #218698;
+}
+
+.log-btn{
+    padding: 10px;
+    color: #fff;
+    background-color: #ED6810;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.logout p{
+    margin-top: 15px;
+    text-align: center;
+}
+
+.logot-img img{
+    height: 100%;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.diff{
+    color: #218698;
+
+}

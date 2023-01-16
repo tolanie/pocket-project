@@ -1,0 +1,167 @@
+.homepage{
+    background-color: #E5E5E5;
+    width: 80vw;
+}
+.home{
+    padding-top:20px;
+}
+
+.container{
+    margin-top: 10px;
+}
+
+.f_text{
+    width: 28rem;
+    margin-top: 1rem;
+    padding-left: 4rem;
+}
+
+.f_img{
+    margin-top: 20px;
+    padding-left: 10px;
+}
+
+
+
+.f_mssg{
+    display: flex;
+    background-color: #fff;
+    width: 60%;
+    /* padding:8px ; */
+}
+
+/* charts */
+
+.chart{
+    display: flex;
+}
+
+/* left chart */
+.d_flex{
+    margin: 50px; 
+}
+
+.d_left{
+    display: flex;
+    margin-top: 30px;
+
+}
+
+.d_text p{
+    padding-top: 10px;
+}
+
+.d_img img{
+    padding-left: 30px;
+    margin-top: -20px;
+}
+
+.left{
+    margin-left: 3rem;
+    background-color: #fff;
+    width: 26%;
+    height: 10rem;
+    padding: 20px;
+    border-radius: 7px;
+}
+
+/* right chart */
+
+.d_right{
+    display: flex;
+    margin-top: 30px;
+}
+
+.r_head h3{
+    color: #ED6710;
+}
+
+.r_text p{
+    padding-top: 15px;
+}
+
+.r_img img{
+    padding-left: 5rem;
+}
+
+.right{
+    margin-left: 3rem;
+    background-color: #fff;
+    width: 30%;
+    height: 10rem;
+    padding: 20px;
+    border-radius: 7px;
+}
+
+/* Retail Solutions */
+
+.retail{
+    margin-left: 3rem;
+    margin-top: 30px;
+}
+
+.retail h2{
+    color: #ED6710;
+}
+
+.boxes{
+    display: flex;
+    margin-top: 20px;
+}
+
+.box{
+    width: 20%;
+    margin-bottom: 20px;
+    background: #EAF8FA;
+    padding: 20px;
+    border-radius: 5px;
+    line-height: 1.5rem;
+
+}
+
+.box h3{
+    width: 10rem;
+    font-weight: 900;
+    padding-top: 10px;
+    color: #218698;
+}
+.box p{
+    padding-top: 10px;
+}
+
+
+.box-2,
+.box-3,
+.box-4{
+    margin-left: 20px;
+}
+
+/* Service Request */
+
+.other{
+    display: flex;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+}
+
+.pen,
+.con{
+    border: 1px solid #ccc;
+    width: 10%;
+    padding: 5px;
+    text-align: center;
+}
+
+.pen{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.con{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.service img{
+    margin-left: 50px;
+}

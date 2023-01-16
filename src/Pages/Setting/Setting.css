@@ -1,0 +1,97 @@
+.setting{
+    background-color: #E5E5E5;
+    width: 85vw;
+    height: 100vh;
+    padding: 50px 20px;
+}
+
+.setting-card{
+    display: flex;
+}
+
+.setting-card h1{
+    font-size: 25px;
+}
+
+
+.b-setting{
+    margin-top: 50px;
+    margin-left: -6rem;
+}
+
+.p-setting{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #124A54;
+    width: 20vw;
+
+}
+
+.update{
+    display: flex;
+    gap: 1rem;
+}
+
+.update i,
+.u-icon{
+    font-size: 25px;
+}
+
+.acc-info{
+    background-color: #EAF8FA;
+    width: 100vw;
+    height: 93vh;
+    margin-left: 30px;
+    padding: 50px;
+}
+
+.acc-img {
+    display: flex;
+    justify-content: center;
+}
+
+ .acc-info img{
+    width:8rem;
+} 
+
+.chge{
+    margin-top: 5rem;
+}
+
+.info{
+    margin-top: 5rem;
+    line-height: 3rem;
+}
+
+.b-name{
+    display: flex;
+}
+
+.b-name p{
+    font-weight: 900;
+}
+
+.b-name span{
+    margin-left: 10px;
+    font-weight: 500;
+    width: 23rem;
+}
+
+.edit-btn{
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    
+  padding: 15px 30px;
+  background: #124A54;  
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  width: 25%;
+}

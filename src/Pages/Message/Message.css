@@ -1,0 +1,181 @@
+
+
+.m_main{
+    background: #E5E5E5;
+    height: 100vh; 
+     display: flex; 
+     width: 80vw;
+}
+
+.m_head{
+    margin: 20px;
+}
+
+.m_head i{
+    padding-left: 5rem;
+    margin-top: 5px;
+}
+
+.m_head h2{
+    font-size: 25px;
+}
+
+.m_body{
+    width: 30%; 
+}
+
+
+
+.c_people{
+    display: flex;
+    /* margin: 10px;
+    background-color: #fff;
+    padding: 10px 7px; */
+    /* width: 90%; */
+    /* border-radius: 5px; */
+}
+
+.c-name{
+    padding-left: 10px;
+}
+
+.m-container{
+    background-color: #EAF8FA;
+    margin-top: 20px; 
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.m-card{
+    width: 100%;
+    padding: 5px;
+
+}
+
+.m_join{
+    display: flex;
+    padding-bottom: 10px;
+    padding-top: 15px;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.pn{
+    display: flex;
+    margin-left: 50px;
+}
+
+.m_name h3{
+    margin: 7px;
+}
+
+.a_class{
+    margin-left: 5rem;
+    margin-top:7px ;
+}
+
+.chats{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    padding: 13px;
+    margin: 5px 10px;
+}
+
+.chat_parent{
+    display: flex;
+    flex-direction: column;
+}
+.cht{
+    display: flex;
+    /* flex-direction: row; */
+    align-self: flex-end;
+    margin-top: 30px;
+}
+.cht img{
+    margin-left: 10px;
+}
+
+.cht_text{
+    width: 12rem;
+    background: #FDF0E7;
+    color: #2494A8;
+    font-weight: 500;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.c_flex{
+    display: flex;
+    margin-top: 2rem;
+    align-self: flex-start;
+}
+
+.c_img img{
+    margin-top: 13px;
+}
+
+.c_text{
+    width: 20rem;
+    margin-left: 13px;
+    background: #0D4447;
+    color: #fff;
+    font-weight: 500;
+    padding: 8px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.type{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.type input{
+    width: 20rem;
+    padding: 20px;
+    border: none;
+    border-radius: 30px;
+    background-color: #D5F1F6;
+}
+
+.s-img{
+    width: 20px;
+    font-size: 12px;
+    margin-left: -40px;
+}
+
+.a-img{
+    padding-left: 2rem;
+}
+
+.c-img{
+    padding-left: 2rem;
+}
+
+.l-container{
+    width: 18vw;
+    margin-top: 20px;
+    border-left: 1px solid #ccc;
+    padding: 20px;
+}
+
+.l-text{
+    margin-top: 30px;
+}
+
+.l-text i{
+    
+    padding: 30px ;
+}
+
+.share{
+    margin-top: 5rem;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #ED6710;
+    width: 7rem;
+}
+    
